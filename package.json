@@ -1,0 +1,27 @@
+{
+  "name": "io.axomem.xworld.amb",
+  "displayName": "xWorld Assets - Axoverse Modular Building Pack",
+  "version": "3.0.1",
+  "description": "Provides hospital, office and hotel examples.",
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6",
+    "io.axomem.xworld.assets": "3.0.2"
+  },
+  "keywords": [
+    "axomem",
+    "xworld",
+    "digitaltwins",
+    "utility"
+  ],
+  "homepage": "https://github.com/axoverse/xworld_amb.git",
+  "bugs": {
+    "url": "https://axomem.atlassian.net/secure/RapidBoard.jspa?rapidView=3"
+  },
+  "license": "CC-BY-SA2.0",
+  "author": "Axomem.io (https://axomem.io/)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "hideInEditor": false,
+  "unity": "2021.3"
+}

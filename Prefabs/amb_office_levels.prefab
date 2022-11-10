@@ -1,0 +1,2620 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8809894685885140627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8809894685885140626}
+  - component: {fileID: 6496090551735016929}
+  - component: {fileID: 3008081061218498380}
+  - component: {fileID: 3951661188083015038}
+  m_Layer: 0
+  m_Name: amb_office_levels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8809894685885140626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8809894685885140627}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6392174085241853566}
+  - {fileID: 6392174085400237063}
+  - {fileID: 6392174084922339756}
+  - {fileID: 6392174086762265892}
+  - {fileID: 6392174085896111259}
+  - {fileID: 6392174085040753738}
+  - {fileID: 6392174085727942654}
+  - {fileID: 2707233296688500696}
+  - {fileID: 1629309461083080769}
+  - {fileID: 226147522969999187}
+  - {fileID: 3562504812231180266}
+  - {fileID: 1447145180619404291}
+  - {fileID: 4891736914810650645}
+  - {fileID: 6982872330883651891}
+  - {fileID: 2695453442456695917}
+  - {fileID: 8700759666414084246}
+  - {fileID: 6207042947515728427}
+  - {fileID: 4422952573449486086}
+  - {fileID: 2405821856980867019}
+  - {fileID: 4446121069690467382}
+  - {fileID: 4483431934945799490}
+  - {fileID: 2002336213473661279}
+  - {fileID: 3681149621249070508}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6496090551735016929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8809894685885140627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6cc4a6afe94ab74dbe81b3d05a697ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParentOverride: {fileID: 0}
+  ThingLabelOverride: levelx
+  ThingNameOverride: Level X
+  PhysicalType: 5
+  ThingInstanceLabel: 
+  ObjectInstanceGuid: 
+  PrefabPath: 
+--- !u!114 &3008081061218498380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8809894685885140627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f7d1ee519856f4798e08c2c982ba73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseStaticBounds: 1
+  RecalcStaticBounds: 0
+  StaticBounds:
+    m_Center: {x: -63.82, y: 1.8919123, z: 0.052350044}
+    m_Extent: {x: 79.91999, y: 2.1226723, z: 12.10235}
+--- !u!114 &3951661188083015038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8809894685885140627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc57520dae7d4c44b171809c56e7da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LockX: 0
+  LockY: 0
+  LockZ: 0
+  Messages: 
+--- !u!1001 &272412130307632004
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 4108679853574243882, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_Name
+      value: amb_lounge
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+--- !u!4 &6207042947515728427 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: efa44d94d331ecd4b9db176513d8dfd4, type: 3}
+  m_PrefabInstance: {fileID: 272412130307632004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1587207713279895994
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 364045153118306583, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 569121520456387673, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267519614238316909, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1405007072873370659, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 2592530539708937174, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138208491640895301, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990470429983763372, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4063442092130541135, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_Name
+      value: amb_office_open_desks (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546204070692302655, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043366095265678022, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757146803102213252, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 70.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.900001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592994973207821566, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180463891599916125, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593275515852269793, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&25'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920609418937487312, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591841838464689191, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751007761941387178, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077779814850080923, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&27'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+--- !u!4 &4891736914810650645 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+  m_PrefabInstance: {fileID: 1587207713279895994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3268306140665137465
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 364045153118306583, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 569121520456387673, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267519614238316909, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1405007072873370659, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 2592530539708937174, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138208491640895301, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990470429983763372, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4063442092130541135, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_Name
+      value: amb_office_open_desks (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546204070692302655, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043366095265678022, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757146803102213252, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 70.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592994973207821566, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180463891599916125, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593275515852269793, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&26'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920609418937487312, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591841838464689191, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751007761941387178, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077779814850080923, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&28'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+--- !u!4 &8700759666414084246 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+  m_PrefabInstance: {fileID: 3268306140665137465}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3822483700382429340
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 364045153118306583, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 569121520456387673, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267519614238316909, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1405007072873370659, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 2592530539708937174, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138208491640895301, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990470429983763372, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_Name
+      value: amb_office_open_desks (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546204070692302655, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043366095265678022, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757146803102213252, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 55.079998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592994973207821566, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180463891599916125, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593275515852269793, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&22'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920609418937487312, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591841838464689191, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751007761941387178, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077779814850080923, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&24'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+--- !u!4 &6982872330883651891 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+  m_PrefabInstance: {fileID: 3822483700382429340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4751683607767440812
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 364045153118306583, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 569121520456387673, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267519614238316909, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1405007072873370659, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 2592530539708937174, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138208491640895301, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990470429983763372, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_Name
+      value: amb_office_open_desks (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546204070692302655, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043366095265678022, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757146803102213252, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.129997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 25.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592994973207821566, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180463891599916125, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593275515852269793, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&18'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920609418937487312, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591841838464689191, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751007761941387178, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077779814850080923, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&20'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+--- !u!4 &1447145180619404291 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+  m_PrefabInstance: {fileID: 4751683607767440812}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4861756321007985134
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 364045153118306583, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 569121520456387673, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267519614238316909, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1405007072873370659, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 2592530539708937174, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138208491640895301, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990470429983763372, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_Name
+      value: amb_office_open_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546204070692302655, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043366095265678022, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757146803102213252, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.129997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.900001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592994973207821566, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180463891599916125, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593275515852269793, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&17'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920609418937487312, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591841838464689191, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751007761941387178, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077779814850080923, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&19'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+--- !u!4 &1629309461083080769 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+  m_PrefabInstance: {fileID: 4861756321007985134}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5633352095983024368
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 637114731521631470, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110883515748626211, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110883515748626211, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&11'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595528378615708463, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076330545147550507, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076330545147550507, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&12'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096258915119395058, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096258915119395058, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&15'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_Name
+      value: amb_office_open_desks_small (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536947942024417700, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607332013237618985, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766831420488549337, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4786871940940032000, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537769138591778820, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537769138591778820, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&16'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -55.469997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.530001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385316993537950347, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400880304533252434, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432893535041422281, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6456967702363118086, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472390280466264543, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953865884770938382, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979311588745525185, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7995429607609359384, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027451874233874051, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472517334368214024, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c993f481806350499594a0e1a537168, type: 3}
+--- !u!4 &2002336213473661279 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+  m_PrefabInstance: {fileID: 5633352095983024368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6253100981556133628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 4108679853574243882, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_Name
+      value: amb_cafe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23.259998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e252460951a78914c87450988bf1b74d, type: 3}
+--- !u!4 &226147522969999187 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: e252460951a78914c87450988bf1b74d, type: 3}
+  m_PrefabInstance: {fileID: 6253100981556133628}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7247587641339811397
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 4108679853574243882, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_Name
+      value: amb_meeting_rooms (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.779999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.580001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+--- !u!4 &3562504812231180266 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+  m_PrefabInstance: {fileID: 7247587641339811397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7418000180804844547
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 637114731521631470, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110883515748626211, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110883515748626211, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&03'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595528378615708463, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076330545147550507, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076330545147550507, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&04'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096258915119395058, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096258915119395058, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&07'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_Name
+      value: amb_office_open_desks_small (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536947942024417700, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607332013237618985, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766831420488549337, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4786871940940032000, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537769138591778820, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537769138591778820, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&08'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -71.01997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.530002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385316993537950347, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400880304533252434, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432893535041422281, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6456967702363118086, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472390280466264543, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953865884770938382, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979311588745525185, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7995429607609359384, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027451874233874051, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472517334368214024, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c993f481806350499594a0e1a537168, type: 3}
+--- !u!4 &3681149621249070508 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+  m_PrefabInstance: {fileID: 7418000180804844547}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7518722475291385241
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 637114731521631470, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110883515748626211, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110883515748626211, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&06'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595528378615708463, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076330545147550507, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076330545147550507, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&05'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096258915119395058, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096258915119395058, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&02'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_Name
+      value: amb_office_open_desks_small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536947942024417700, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607332013237618985, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766831420488549337, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4786871940940032000, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537769138591778820, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537769138591778820, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&01'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -64.56999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385316993537950347, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400880304533252434, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432893535041422281, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6456967702363118086, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472390280466264543, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953865884770938382, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979311588745525185, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7995429607609359384, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027451874233874051, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472517334368214024, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c993f481806350499594a0e1a537168, type: 3}
+--- !u!4 &4446121069690467382 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+  m_PrefabInstance: {fileID: 7518722475291385241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7531547042240370345
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 4108679853574243882, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_Name
+      value: amb_small_offices
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.83962
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.909999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+--- !u!4 &4422952573449486086 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 84623073c2868304a8e25f1ef78cdc8c, type: 3}
+  m_PrefabInstance: {fileID: 7531547042240370345}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7772170998751462637
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 4108679853574243882, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_Name
+      value: amb_meeting_rooms_large
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -39.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.540001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+--- !u!4 &4483431934945799490 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 24f7bd81cae5556439d15e4ee5510664, type: 3}
+  m_PrefabInstance: {fileID: 7772170998751462637}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8103686131477964407
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 4108679853574243882, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_Name
+      value: amb_meeting_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+--- !u!4 &2707233296688500696 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: fc8dd20b06c6fe641becfb0209dbea75, type: 3}
+  m_PrefabInstance: {fileID: 8103686131477964407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8109920048925547970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 364045153118306583, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 569121520456387673, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1267519614238316909, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 1405007072873370659, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 2592530539708937174, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3138208491640895301, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990470429983763372, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_Name
+      value: amb_office_open_desks (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4546204070692302655, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 5043366095265678022, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757146803102213252, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 55.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.900001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592994973207821566, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180463891599916125, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7593275515852269793, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 7748807220275177711, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&21'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7920609418937487312, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591841838464689191, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751007761941387178, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9077779814850080923, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks
+      objectReference: {fileID: 0}
+    - target: {fileID: 9156715657661378709, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&23'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+--- !u!4 &2695453442456695917 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 330600a89f77eb647adc36dffc2ca27a, type: 3}
+  m_PrefabInstance: {fileID: 8109920048925547970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8396723961077808740
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 637114731521631470, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110883515748626211, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 2110883515748626211, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&14'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595528378615708463, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076330545147550507, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3076330545147550507, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&13'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096258915119395058, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 3096258915119395058, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&10'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_Name
+      value: amb_office_open_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536947942024417700, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4607332013237618985, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4766831420488549337, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 4786871940940032000, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537769138591778820, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537769138591778820, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&09'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -49.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6385316993537950347, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6400880304533252434, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6432893535041422281, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6456967702363118086, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472390280466264543, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7953865884770938382, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7979311588745525185, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 7995429607609359384, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027451874233874051, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    - target: {fileID: 8472517334368214024, guid: 5c993f481806350499594a0e1a537168, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_cross_desks_small
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5c993f481806350499594a0e1a537168, type: 3}
+--- !u!4 &2405821856980867019 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 5c993f481806350499594a0e1a537168, type: 3}
+  m_PrefabInstance: {fileID: 8396723961077808740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894684923145412
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_Name
+      value: AMB_6_rooms_shell (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -55.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.104701616
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+--- !u!4 &6392174085040753738 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+  m_PrefabInstance: {fileID: 8809894684923145412}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685124441840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Name
+      value: AMB_stairwell
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080461, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 67.7444
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1498371
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891737757062288803, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2921264486091205975, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128925296171528248, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171549611045669068, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc64133f590e710408991537b99d079c, type: 3}
+--- !u!4 &6392174085241853566 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+  m_PrefabInstance: {fileID: 8809894685124441840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685276180770
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_Name
+      value: AMB_6_rooms_shell
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080461, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 63.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+--- !u!4 &6392174084922339756 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+  m_PrefabInstance: {fileID: 8809894685276180770}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685544322928
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Name
+      value: AMB_stairwell (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080461, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -67.78439
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15470752
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891737757062288803, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2921264486091205975, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128925296171528248, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171549611045669068, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc64133f590e710408991537b99d079c, type: 3}
+--- !u!4 &6392174085727942654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+  m_PrefabInstance: {fileID: 8809894685544322928}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685746197641
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 78453556307413010, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 83814561857773655, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 157246395318527720, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198967542411864784, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 582744569692311538, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 585423745686357130, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 596599788203089785, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1106985371036974328, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1215713328905817355, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683956298932317680, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820424820385531897, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182305786147441133, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2366087119814504401, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080461, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_Name
+      value: AMB_liftwell
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080461, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.014137268
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.15310845
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369253030321526, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622353466434772564, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842709321217504282, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891737757062288803, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2921264486091205975, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3488750755213011949, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553188429061861841, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3748796699883939926, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133538311226608159, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128925296171528248, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168837224622644015, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171549611045669068, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6921482677897641832, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7051346765525728866, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7088322241085977921, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135960080623427391, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820107666820174199, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844757035394198241, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8576947039342318553, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8853073823485493025, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9074869724567733942, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105208376698535272, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+--- !u!4 &6392174085400237063 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+  m_PrefabInstance: {fileID: 8809894685746197641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894686315930645
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_Name
+      value: AMB_6_rooms_shell (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23.837566
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.104701616
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+--- !u!4 &6392174085896111259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+  m_PrefabInstance: {fileID: 8809894686315930645}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894686573862314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_Name
+      value: AMB_6_rooms_shell (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.10006104
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+--- !u!4 &6392174086762265892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+  m_PrefabInstance: {fileID: 8809894686573862314}
+  m_PrefabAsset: {fileID: 0}

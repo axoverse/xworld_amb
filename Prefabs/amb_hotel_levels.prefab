@@ -1,0 +1,2200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8809894685885140627
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8809894685885140626}
+  - component: {fileID: 5207874781628920064}
+  - component: {fileID: 1610271885554983060}
+  - component: {fileID: 7694257465812430543}
+  m_Layer: 0
+  m_Name: amb_hotel_levels
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8809894685885140626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8809894685885140627}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6392174085241853566}
+  - {fileID: 6392174085400237063}
+  - {fileID: 6392174084922339756}
+  - {fileID: 3433745424244035055}
+  - {fileID: 3433745423115639475}
+  - {fileID: 6392174086762265892}
+  - {fileID: 3433745423773776993}
+  - {fileID: 3433745424784791389}
+  - {fileID: 3433745423560275150}
+  - {fileID: 3433745423507978002}
+  - {fileID: 3433745425122771151}
+  - {fileID: 3433745423268450336}
+  - {fileID: 6392174085896111259}
+  - {fileID: 3433745424143960459}
+  - {fileID: 3433745424381190465}
+  - {fileID: 3433745423850826482}
+  - {fileID: 3433745424286888174}
+  - {fileID: 6392174085040753738}
+  - {fileID: 3433745424654150944}
+  - {fileID: 3433745424082552383}
+  - {fileID: 3433745424160196467}
+  - {fileID: 3433745423403049686}
+  - {fileID: 6392174085727942654}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5207874781628920064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8809894685885140627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6cc4a6afe94ab74dbe81b3d05a697ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParentOverride: {fileID: 0}
+  ThingLabelOverride: levelx
+  ThingNameOverride: Level X
+  PhysicalType: 5
+  ThingInstanceLabel: 
+  ObjectInstanceGuid: 
+  PrefabPath: amb/Prefabs/amb_hotel_levels
+--- !u!114 &1610271885554983060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8809894685885140627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f7d1ee519856f4798e08c2c982ba73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseStaticBounds: 1
+  RecalcStaticBounds: 0
+  StaticBounds:
+    m_Center: {x: -1.796814, y: 1.8186424, z: -1.296298}
+    m_Extent: {x: 79.91998, y: 2.1959424, z: 12.10235}
+--- !u!114 &7694257465812430543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8809894685885140627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc57520dae7d4c44b171809c56e7da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LockX: 0
+  LockY: 0
+  LockZ: 0
+  Messages: 
+--- !u!1001 &8809894684868524431
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R30'
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R31'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_standard_rooms (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R32'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.021187
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.045638
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R29'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+--- !u!4 &3433745423268450336 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+  m_PrefabInstance: {fileID: 8809894684868524431}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894684923145412
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_Name
+      value: AMB_6_rooms_shell (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -56.337997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.698308
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+--- !u!4 &6392174085040753738 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+  m_PrefabInstance: {fileID: 8809894684923145412}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685047059228
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2353486014612838374, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_king_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353486014612838374, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R40'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_king_rooms (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272729721881405813, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_king_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272729721881405813, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R39'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+--- !u!4 &3433745423115639475 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+  m_PrefabInstance: {fileID: 8809894685047059228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685124441840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Name
+      value: AMB_stairwell
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080461, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 67.2464
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6531725
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891737757062288803, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2921264486091205975, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128925296171528248, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171549611045669068, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc64133f590e710408991537b99d079c, type: 3}
+--- !u!4 &6392174085241853566 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+  m_PrefabInstance: {fileID: 8809894685124441840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685174292157
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R11'
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R10'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R09'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -39.61557
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.343723
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R12'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+--- !u!4 &3433745423507978002 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+  m_PrefabInstance: {fileID: 8809894685174292157}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685256736097
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2353486014612838374, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_king_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353486014612838374, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R36'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_king_rooms (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 32.062004
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.349509
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272729721881405813, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_king_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272729721881405813, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R35'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+--- !u!4 &3433745423560275150 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+  m_PrefabInstance: {fileID: 8809894685256736097}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685271477113
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R07'
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R06'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_single_rooms (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R05'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -55.600433
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.343723
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R08'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+--- !u!4 &3433745423403049686 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+  m_PrefabInstance: {fileID: 8809894685271477113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685276180770
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_Name
+      value: AMB_6_rooms_shell
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080461, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 63.302002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.7030096
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+--- !u!4 &6392174084922339756 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+  m_PrefabInstance: {fileID: 8809894685276180770}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685436941774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 4108679853574243882, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_standard_rooms (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.46362
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.74496
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928609941969755121, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928609941969755121, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R42'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4063442092130541135, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689343862908721091, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689343862908721091, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R43'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.792122
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.039866
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369299283819208451, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369299283819208451, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R44'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052293600011983367, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052293600011983367, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R41'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+--- !u!4 &3433745423773776993 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+  m_PrefabInstance: {fileID: 8809894685436941774}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685519299421
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 3928609941969755121, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928609941969755121, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R50'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4063442092130541135, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_standard_rooms (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689343862908721091, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689343862908721091, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R51'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 54.638382
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.041889
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369299283819208451, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369299283819208451, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R52'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052293600011983367, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052293600011983367, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R49'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+--- !u!4 &3433745423850826482 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+  m_PrefabInstance: {fileID: 8809894685519299421}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685544322928
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Name
+      value: AMB_stairwell (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080461, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -68.282394
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.6483021
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891737757062288803, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2921264486091205975, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128925296171528248, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171549611045669068, guid: bc64133f590e710408991537b99d079c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bc64133f590e710408991537b99d079c, type: 3}
+--- !u!4 &6392174085727942654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: bc64133f590e710408991537b99d079c, type: 3}
+  m_PrefabInstance: {fileID: 8809894685544322928}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685681840016
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R18'
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R19'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_standard_rooms (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R20'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -65.00162
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.046591
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R17'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+--- !u!4 &3433745424082552383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+  m_PrefabInstance: {fileID: 8809894685681840016}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685738000420
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R15'
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R14'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_single_rooms (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R13'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -23.598
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.343723
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R16'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+--- !u!4 &3433745424143960459 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+  m_PrefabInstance: {fileID: 8809894685738000420}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894685746197641
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 78453556307413010, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 83814561857773655, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 157246395318527720, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198967542411864784, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 582744569692311538, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 585423745686357130, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 596599788203089785, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1106985371036974328, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1215713328905817355, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244893827627783651, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683956298932317680, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2182305786147441133, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2366087119814504401, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080461, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_Name
+      value: AMB_liftwell
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.51213455
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.64990115
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622353466434772564, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842709321217504282, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2891737757062288803, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2921264486091205975, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3553188429061861841, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3748796699883939926, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128925296171528248, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6168837224622644015, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6171549611045669068, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6921482677897641832, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7051346765525728866, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7088322241085977921, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7135960080623427391, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7820107666820174199, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844757035394198241, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8576947039342318553, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8853073823485493025, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9046214625596240362, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9074869724567733942, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9105208376698535272, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+--- !u!4 &6392174085400237063 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: 8d67108e561d2eb4b8da39ad9d71d145, type: 3}
+  m_PrefabInstance: {fileID: 8809894685746197641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894686046521582
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 3928609941969755121, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928609941969755121, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R46'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_standard_rooms (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689343862908721091, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689343862908721091, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R47'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 38.81638
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.0409975
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369299283819208451, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369299283819208451, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R48'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052293600011983367, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052293600011983367, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R45'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+--- !u!4 &3433745424381190465 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+  m_PrefabInstance: {fileID: 8809894686046521582}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894686124388060
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R03'
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R02'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_single_rooms (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R01'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -71.618
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.343723
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R04'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+--- !u!4 &3433745424160196467 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+  m_PrefabInstance: {fileID: 8809894686124388060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894686149089601
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 3928609941969755121, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 3928609941969755121, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R54'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_standard_rooms (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689343862908721091, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4689343862908721091, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R55'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 70.61638
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.040936
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369299283819208451, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 7369299283819208451, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R56'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052293600011983367, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_standard_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052293600011983367, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R53'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+--- !u!4 &3433745424286888174 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 327c3c2df12296a42b54d47eb2ea7b40, type: 3}
+  m_PrefabInstance: {fileID: 8809894686149089601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894686174667840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2353486014612838374, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_king_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353486014612838374, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R38'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_king_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 48.056377
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.34957
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272729721881405813, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_king_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272729721881405813, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R37'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+--- !u!4 &3433745424244035055 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+  m_PrefabInstance: {fileID: 8809894686174667840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894686315930645
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_Name
+      value: AMB_6_rooms_shell (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -24.335564
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.698308
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+--- !u!4 &6392174085896111259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+  m_PrefabInstance: {fileID: 8809894686315930645}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894686318167183
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R22'
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R23'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_standard_rooms (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R24'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -49.02362
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.045638
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R21'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+--- !u!4 &3433745424654150944 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+  m_PrefabInstance: {fileID: 8809894686318167183}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894686573862314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2519369252113080461, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_Name
+      value: AMB_6_rooms_shell (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 31.502003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.7029486
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+--- !u!4 &6392174086762265892 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2519369252113080462, guid: baac762c6ace269499f45cd076e32b2a, type: 3}
+  m_PrefabInstance: {fileID: 8809894686573862314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894686716149490
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 2353486014612838374, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_king_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 2353486014612838374, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R34'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815481814707117352, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_king_rooms (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.256378
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.349509
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272729721881405813, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_king_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272729721881405813, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R33'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+--- !u!4 &3433745424784791389 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 109805a95e0b0354695dc075ec06b6ed, type: 3}
+  m_PrefabInstance: {fileID: 8809894686716149490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8809894686789101920
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8809894685885140626}
+    m_Modifications:
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 596709419957754528, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R26'
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 734060450725785830, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R27'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4108679853574243882, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_Name
+      value: amb_hotel_standard_rooms (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 4382430323436171784, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R28'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.999184
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.046591
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: PrefabPath
+      value: amb/Prefabs/amb_hotel_single_rooms
+      objectReference: {fileID: 0}
+    - target: {fileID: 9060808637621932926, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+      propertyPath: ThingLabelOverride
+      value: '&R25'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+--- !u!4 &3433745425122771151 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6189095766904711599, guid: 683f48deecf98524fb56f05a29ffcbd7, type: 3}
+  m_PrefabInstance: {fileID: 8809894686789101920}
+  m_PrefabAsset: {fileID: 0}
