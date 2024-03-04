@@ -3,8 +3,8 @@
 ## Install Unity
 * Install Unity Hub from https://unity3d.com/get-unity/download
 * In Unity Hub, Click on Installs > Install Editor > Archive Tab > Long Term Support
-* Change the version to "2021.3"
-* Expand `2021.3.9f1` and click "Unity Hub"
+* Change the version to "2022.3"
+* Expand `2022.3.13f1` and click "Unity Hub"
 * In the installer, include Visual Studio Community and Click Install
 
 Note - check with your administrator regarding which Unity license to use, otherwise
@@ -36,10 +36,12 @@ Go to Edit > Project Settings > Package Manager and add the following scoped reg
   * `io.axomem.xworld.assets`
   * `io.axomem.xworld.core`
 * Wait for updates
+  * If prompted to enable backends or update obsolete APIs, click Yes or 'Go ahead' and wait for restart.
+
 
 ## Git Clone
 * Ensure you have git installed and added to path (https://git-scm.com/downloads)
-* Open a cmd/terminal window and go to your project\Assets directory 
+* Open a command/shell/terminal window and go to your project\Assets directory 
 * Use `git clone https://github.com/<githubusername>/xworld_amb.git` to clone a copy of the repository to your local machine
 
 ## Running the demo content
@@ -51,3 +53,4 @@ Open these from the `Assets\xworld_amb\Scenes`
 * Click "Play"
 
 ## Issue tracking
+See https://github.com/axoverse/xworld_amb/issues
